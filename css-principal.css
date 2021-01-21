@@ -1,7 +1,10 @@
 body{
   margin: 0;
+  font-family: Arial;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
 }
-
 
 #menu{
   padding: 0px;
@@ -43,10 +46,9 @@ body{
   left: 10px;
 }
 .div-form{
-  margin-top: -250px;
   background-color: white;
-  max-width: 600px;
-  margin: -250px auto;
+  max-width: 700px;
+  margin: -15% auto;
   border-radius: 8px;
   padding: 5px;
 }
@@ -61,6 +63,7 @@ body{
   font-size: 15px;
   text-transform: uppercase;
   cursor: pointer;
+  margin 0 auto;
 }
 #tit-form{
   padding: 4px 0;
@@ -79,7 +82,7 @@ body{
 }
 input,select{
   display: block;
-  background: grey;
+  background:grey;
   width: 100%;
   border: 0;
   border-radius: 4px;
@@ -92,12 +95,59 @@ input,select{
   line-height: 1.6em;
 }
 label{
-    display: block;
-    color: grey;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    margin: 0;
+  display: block;
+  color: grey;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin: 20px 20px 5px 20px;
+}
+#Vigo{
+  background-image: url(ria-vigo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;}
+#Coruna{
+  background-image: url(coruna.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;}
+#Baiona{
+  background-image: url(baiona.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;}
+#Sanxenxo{
+  background-image: url(sanxenxo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;}
+#Ribadeo{
+  background-image: url(ribadeo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;}
+#Cambados{
+  background-image: url(cambados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+#localizaciones{
+  margin: 20px auto;
+  max-width: 1000px;
 }
