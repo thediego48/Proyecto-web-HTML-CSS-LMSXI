@@ -186,3 +186,7 @@ margin: 80px 0;
 #h1-col1,#h1-col2,#h1-col3,#h1-col4{
   font-size: 50px;
 }
+.activa {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
