@@ -52,18 +52,20 @@ body{
   border-radius: 8px;
   padding: 5px;
 }
-#button{
-  background: #4285F4;
-  width: 50%;
-  border: 0;
-  border-radius: 4px;
-  padding: 12px 20px;
-  color: white;
-  font-family: sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin: 0 auto;
+.button{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #25aae1;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+.button:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+  border: 2px solid #25aae1;
 }
 #tit-form{
   padding: 4px 0;
@@ -113,6 +115,20 @@ label{
   display: inline-block;
   margin:4px;
 }
+#Vigo h1{
+  visibility: hidden;
+}
+#Vigo:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/ria-vigo.jpg);
+}
+#Vigo:hover h1{
+  visibility: visible;
+}
 #Coruna{
   background-image: url(fotos-index/coruna.jpg);
   background-repeat: no-repeat;
@@ -121,6 +137,20 @@ label{
   width: 320px;
   display: inline-block;
   margin:4px;
+}
+#Coruna h1{
+  visibility: hidden;
+}
+#Coruna:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/coruna.jpg);
+}
+#Coruna:hover h1{
+  visibility: visible;
 }
 #Baiona{
   background-image: url(fotos-index/baiona.jpg);
@@ -131,6 +161,20 @@ label{
   display: inline-block;
   margin:4px;
 }
+#Baiona h1{
+  visibility: hidden;
+}
+#Baiona:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/baiona.jpg);
+}
+#Baiona:hover h1{
+  visibility: visible;
+}
 #Sanxenxo{
   background-image: url(fotos-index/sanxenxo.jpg);
   background-repeat: no-repeat;
@@ -139,6 +183,20 @@ label{
   width: 320px;
   display: inline-block;
   margin:4px;
+}
+#Sanxenxo h1{
+  visibility: hidden;
+}
+#Sanxenxo:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/sanxenxo.jpg);
+}
+#Sanxenxo:hover h1{
+  visibility: visible;
 }
 #Ribadeo{
   background-image: url(fotos-index/ribadeo.jpg);
@@ -149,6 +207,20 @@ label{
   display: inline-block;
   margin:4px;
 }
+#Ribadeo h1{
+  visibility: hidden;
+}
+#Ribadeo:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/ribadeo.jpg);
+}
+#Ribadeo:hover h1{
+  visibility: visible;
+}
 #Cambados{
   background-image: url(fotos-index/cambados.jpg);
   background-repeat: no-repeat;
@@ -158,9 +230,23 @@ label{
   display: inline-block;
   margin:4px;
 }
+#Cambados h1{
+  visibility: hidden;
+}
+#Cambados:hover{
+  background-image: 
+  linear-gradient(
+    rgba(41, 48, 43, 0.6),
+    rgba(41, 48, 43, 0.6)
+  ),
+  url(fotos-index/cambados.jpg);
+}
+#Cambados:hover h1{
+  visibility: visible;
+}
 #localizaciones{
   margin: 20px auto;
-  max-width: 1000px;
+  max-width: 1000px
 }
 #texto-vigo,#texto-coruna,#texto-baiona,#texto-sanxenxo,#texto-ribadeo,#texto-cambados{
 text-align:center;
@@ -170,8 +256,8 @@ margin: 80px 0;
   text-align: center;
   background-image: 
   linear-gradient(
-    rgba(16, 137, 255, 0.6),
-    rgba(16, 137, 255, 0.6)
+    rgba(15, 117, 188, 0.6),
+    rgba(15, 117, 188, 0.6)
   ),
   url(fotos-index/foto-stats.jpg);
   background-repeat: no-repeat;
@@ -180,7 +266,7 @@ margin: 80px 0;
 #col1,#col2,#col3,#col4{
   display: inline-block;
   text-align: center;
-  margin: 70px;
+  margin: 60px;
 }
 #h1-col1,#h1-col2,#h1-col3,#h1-col4{
   font-size: 50px;
@@ -191,4 +277,18 @@ margin: 80px 0;
 }
 #centrar-stats{
   margin: 0 auto;
+}
+#banner-contacto{
+   background-color: #0f75bc;
+   height: 130px;
+}
+#contenido-banner-contacto{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#banner-contacto h2{
+  text-align: center;
+  line-height: 130px;
+  display: inline;
+  margin-right: 520px;
 }
