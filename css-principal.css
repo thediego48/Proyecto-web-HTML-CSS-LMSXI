@@ -167,8 +167,7 @@ text-align:center;
 margin: 80px 0;
 }
 #stats{
-  /*max-width: 1000px;*/
-  margin: 50px auto;
+  text-align: center;
   background-image: 
   linear-gradient(
     rgba(16, 137, 255, 0.6),
@@ -189,4 +188,7 @@ margin: 80px 0;
 .activa {
   text-decoration: underline;
   text-decoration-style: double;
+}
+#centrar-stats{
+  margin: 0 auto;
 }
