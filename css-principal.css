@@ -82,7 +82,7 @@ body{
 #puerto-dia1{
   float: left;
 }
-input,select{
+/*input,select{
   display: block;
   background:grey;
   width: 100%;
@@ -105,7 +105,7 @@ label{
   text-transform: uppercase;
   letter-spacing: .2em;
   margin: 20px 20px 5px 20px;
-}
+}*/
 #Vigo{
   background-image: url(fotos-index/ria-vigo.jpg);
   background-repeat: no-repeat;
@@ -291,4 +291,63 @@ margin: 80px 0;
   line-height: 130px;
   display: inline;
   margin-right: 520px;
+}
+#opiniones{
+  margin: 20px auto;
+  max-width: 1000px
+}
+.opinion{
+  background-color: #F8F9FA;
+  width: 320px;
+  height: 340px;
+  display: inline-block;
+  margin: 4px;
+}
+.opinion img{
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.opinion p{
+  margin-left: 30px;
+  margin-right: 30px;
+  color: black;
+  text-align: justify;
+}
+.opinion h4{
+  text-align: center;
+  color: #0f75bc;
+}
+#llamamos{
+  text-align: center;
+  background-image: 
+  linear-gradient(
+    rgba(15, 117, 188, 0.6),
+    rgba(15, 117, 188, 0.6)
+  ),
+  url(fotos-index/te-llamamos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 300px;
+}
+#llamamos h2{
+  color:white;
+  text-align:center;
+  font-size: 45px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+#llamamos p{
+  margin-bottom: 50px;
+}
+#telefono{
+  border-radius: 6px;
+  border: 2px solid white;
+  height: 41px;
+  width: 220px;
+}
+#telefono ::placeholder{
+  color: black;
+  font-size: 1.5em;
 }
