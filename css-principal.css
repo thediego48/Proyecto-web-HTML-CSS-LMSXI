@@ -339,7 +339,7 @@ margin: 80px 0;
   margin-bottom: 10px;
 }
 #llamamos p{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #telefono{
   border-radius: 6px;
@@ -347,7 +347,40 @@ margin: 80px 0;
   height: 41px;
   width: 220px;
 }
-#telefono ::placeholder{
-  color: black;
+#llamamos ::placeholder{
+  color: grey;
   font-size: 1.5em;
+  text-align: center;
+}
+#contacto-index{
+  margin: 20px auto;
+  max-width: 1000px
+}
+#contacto-index h2{
+  color:black;
+  text-align:center;
+  font-size: 45px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+#contacto-index p{
+  margin-bottom: 30px;
+  color: black;
+  text-align: center;
+}
+#contacto-index #nombre,#contacto-index #email,#contacto-index textarea{
+  width: 100%;
+  border: 2px solid #0f75bc;
+  height: 41px;
+  background-color: #F8F9FA;
+}
+#contacto-index textarea{
+  height: 8em;
+  font-family: Arial;
+}
+#contacto-index ::placeholder{
+  color: grey;
+  font-size: 1.2em;
+  padding-left: 5px;
 }

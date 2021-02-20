@@ -92,17 +92,36 @@
       </div>
     </section>
     <section id="llamamos">
-      <h2>¿Te llamamos?</h2>
+      <h2>¿Te llamamos...?</h2>
       <p>Déjanos tu teléfono y te llamaremos lo antes posible...</p>
       <form>
         <p>
-          <input id="telefono"type="tel" name="telefono" placeholder="Teléfono"/>
+          <input id="telefono"type="tel" name="telefono" placeholder="Teléfono" required/>
           <input type="submit" class="button"value="Enviar"/>
         </p>
       </form>
     </section>
-    <section>
-      <p>ola</p>
+    <section id="contacto-index">
+      <h2>O también puedes dejarnos un mensaje</h2>
+      <p>Puedes contarnos en este formulario cualquier duda que tengas, nosotros te ayudaremos.</p>
+      <form action="" method="post">
+        <p>
+           <input type="text" id="nombre" name="Nombre" placeholder="Nombre"/>
+        </p>
+        <p>
+           <input type="email" id="email" name="email" placeholder="Correo electrónico"/>
+        </p>
+        <p>
+           <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" name="condiciones" required/><label for="condiciones">He leído y acepto los <a href="pagina_condiciones.html">términos y condiciones</a></label>
+        </p>
+        <p><input type="submit" class="button"value="Enviar"/></p>
+        </form>
     </section>
+    <footer>
+      
+    </footer>
   </body>
 </html>
