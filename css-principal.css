@@ -384,3 +384,33 @@ margin: 80px 0;
   font-size: 1.2em;
   padding-left: 5px;
 }
+footer{
+  background-color: #262424;
+}
+#footer-1000px{
+  margin: 0 auto;
+  max-width: 1150px;
+}
+#columna1,#columna2,#columna3,#columna4{
+  width: 25%;
+  margin-top: 20px;
+}
+#columna2,#columna3,#columna4{
+  margin-left: 20px;
+}
+#columna2 li a,#columna3 li a {
+  text-decoration: none;
+  list-style:none
+}
+.lista-enlaces{
+  text-decoration: none;
+  list-style:none;
+  padding-left: 0;
+  line-height: 63px;
+}
+#ubicacion{
+  line-height: normal;
+}
+.lista-enlaces a{
+  color: white;
+}
