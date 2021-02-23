@@ -1,0 +1,72 @@
+#carrousel-nosotros{
+    background-image: url(fotos-nosotros/crew.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+  }
+#menu li a{
+    color: black;
+  }
+  #quienes-somos{
+    color: black;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  #quienes-somos h2{
+      text-align: center;
+  }
+  #img-nosotros{
+    display: inline-block;
+    max-width: 50%;
+    float: left;
+  }
+  #texto-nosotros-padre{
+    max-width: 50%;  
+    display: inline-block;
+    height: 320px;
+    display: flex;
+    align-items: center;
+
+  }
+  #texto-nosotros-hijo{
+    padding: 60px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  #nuestro-equipo{
+    background-color: #0f75bc;
+    padding: 30px;
+  }
+  #nuestro-equipo2{
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  #nuestro-equipo2 h2{
+      margin-top: 0;
+      margin-bottom: 30px;
+  }
+  .capitan{
+    background-color: #F8F9FA;
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin: 4px;
+  }
+  .capitan img{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .capitan h3{
+    text-align: center;
+    color: #0f75bc;
+  }
+  .capitan p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
