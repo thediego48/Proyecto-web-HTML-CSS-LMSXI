@@ -1,0 +1,39 @@
+#carrousel-servicios{
+    background-image: url(fotos-servicios/velero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+  }
+.tabla-servicios{
+    max-width: 1000px;
+    color: black;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.texto-servicios{
+    padding: 60px;
+    line-height: 30px;
+    text-align: justify;
+}
+#texto-evento-hijo h2{
+    text-align: center;
+    color: white;
+}
+#texto-evento-hijo p{
+    color: white;
+}
+#tabla-eventos{
+    background-color: #0f75bc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+

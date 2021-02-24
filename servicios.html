@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Servicios que ofrecemos</title>
+    <title>Servicios que ofrecemos | Real Yatch Rental</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width"/>
       <link href="css-principal.css" rel="stylesheet" type="text/css" media="screen"/>
+      <link href="css-nosotros.css" rel="stylesheet" type="text/css" media="screen"/>
+      <link href="css-servicios.css" rel="stylesheet" type="text/css" media="screen"/>
   </head>
   <body>
-    <div id="carrousel"></div>
+    <div id="carrousel-servicios"></div>
       <header>
         <a href="index.html"><img src="fotos-global/logo.png" width="150px" height="100px" id="logo"/></a>
           <ul id="menu">
@@ -23,5 +25,111 @@
         </div>
       </header>
     </div>
-    </body>
-    </html>
+    <div id="banner-contacto">
+      <div id="contenido-banner-contacto">
+        <h2>¿Interesado en alquilar?</h2>
+        <a class="button" href="contacto.html">¡Contáctanos!</a>
+      </div>
+    </div>
+    <table class="tabla-servicios">
+      <tr>
+          <td ><img src="fotos-servicios/gorra-de-patrón.png" width="500" height="320"/></td>
+          <td class="texto-servicios">
+            <div>
+              <h2>Alquiler de barco con patrón</h2>
+              <p>Ponemos a tu disposición nuestros mejores patrones en los que podrás confiar para que tu viaje sea perfecto y que te ayudarán en todo lo que necesites durante tu estancia en nuestra embarcación.</p>
+            </div>
+          </td>
+      </tr>
+    </table>
+    <div id="tabla-eventos">
+      <table class="tabla-servicios">
+        <tr>
+          <td class="texto-servicios">
+            <div id="texto-evento-hijo">
+              <h2>Celebra tus eventos</h2>
+              <p>Buen clima, algo de comida, mucho alcohol, el mar... Suena bien, ¿No?. Puedes celebrar en nuestros barcos cualquier tipo de evento... Despedidas de soltero, cumpleaños, fiesta de fin de pandemia... ¡Cualquier excusa es buena!</p>
+            </div></td>
+            <td><img id="img-fiesta" src="fotos-servicios/fiesta-barco.jpeg" width="500" height="320"/></td>
+        </tr>
+      </table>
+    </div>
+    <table class="tabla-servicios">
+      <tr>
+          <td ><img src="fotos-servicios/barco-alquiler.jpg" width="500" height="320"/></td>
+          <td class="texto-servicios">
+            <div>
+              <h2>¿Tienes un barco? Alquílalo</h2>
+              <p>Si tienes un barco que usas poco y te gustaría sacarle rentabilidad te invitamos a alquilárnoslo para que nosotros lo usemos y lo mantengamos. Siempre muy cuidado por nuestros ingenieros.</p>
+            </div>
+          </td>
+      </tr>
+    </table> 
+    <section id="llamamos">
+      <h2>¿Te llamamos...?</h2>
+      <p>Déjanos tu teléfono y te llamaremos lo antes posible...</p>
+      <form>
+        <p>
+          <input id="telefono"type="tel" name="telefono" placeholder="Teléfono" required/>
+          <input type="submit" class="button"value="Enviar"/>
+        </p>
+      </form>
+    </section>
+    <section id="contacto-index">
+      <h2>O también puedes dejarnos un mensaje</h2>
+      <p>Puedes contarnos en este formulario cualquier duda que tengas, nosotros te ayudaremos.</p>
+      <form action="" method="post">
+        <p>
+           <input type="text" id="nombre" name="Nombre" placeholder="Nombre"/>
+        </p>
+        <p>
+           <input type="email" id="email" name="email" placeholder="Correo electrónico"/>
+        </p>
+        <p>
+           <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" name="condiciones" required/><label for="condiciones">He leído y acepto la <a href="#">política de privacidad</a></label>
+        </p>
+        <p><input type="submit" class="button"value="Enviar"/></p>
+        </form>
+    </section>
+    <footer>
+      <div id="footer-1000px">
+        <div id="columna1">
+          <!--<a href="index.html"><img src="fotos-global/logo.png" width="150px" height="100px"/></a>-->
+          <h2>¿Dónde encontrarnos?</h2>
+          <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507.2872218619284!2d-8.724363413904305!3d42.24143105229491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f6240f4f4b677%3A0xe2524bd393f7cd95!2sCiesjet%20%7C%20Alquiler%20de%20motos%20de%20agua%20en%20Vigo!5e0!3m2!1ses!2ses!4v1613904822972!5m2!1ses!2ses" width="287" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+          <a href="https://instagram.com"><img src="fotos-global/insta.png" width="64"height="44"/></a>
+          <a href="https://whattsapp.com"><img src="fotos-global/wha.png"width="44"height="44"/></a>
+        </div>
+        <div id="columna2">
+          <h2 class="">Information</h2>
+          <ul class="lista-enlaces">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Nuestros barcos</a></li>
+          </ul>
+        </div>
+        <div id="columna3">
+          <h2>Atención al cliente</h2>
+          <ul class="lista-enlaces">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de cookies</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+        <div id="columna4">
+          <h2>Contáctanos</h2>
+            <ul class="lista-enlaces">
+              <li id="ubicacion">As Avenidas s/n,<br>Edif. Escuela de Vela, <br>36202 Vigo, Pontevedra</li>
+              <li>+34 986 65 52 32</li>
+              <li>contacto@dominio.com</li>            
+            </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
