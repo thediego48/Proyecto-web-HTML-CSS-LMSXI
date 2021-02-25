@@ -1,0 +1,47 @@
+.precios-barcos{
+    width: 1000px;
+    color: black;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.precio{
+    background-color: #F8F9FA;
+    color: #0f75bc;
+}
+.precios-barcos h4{
+    margin-bottom: 12px;
+}
+.celda-info{
+    background-color: #0f75bc;
+    color: white;
+}
+.button-precio{
+    display: none;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #25aae1;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+.button-precio:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    border: 2px solid #25aae1;
+  }
+.precio:hover {
+    background-color: #9da2a3;
+    transition: all 0.5s ease;
+}
+.precio:hover > h3{
+    display: none;
+}
+.precio:hover > .button-precio{
+    display: block;
+    transition: all 0.8s ease;
+}
+
