@@ -48,13 +48,6 @@ body{
   top: 5px;
   left: 10px;
 }
-.div-form{
-  background-color: white;
-  max-width: 700px;
-  margin: -15% auto;
-  border-radius: 8px;
-  padding: 5px;
-}
 .button{
   text-decoration: none;
   padding: 10px;
@@ -69,21 +62,6 @@ body{
   color: #1883ba;
   background-color: #ffffff;
   border: 2px solid #25aae1;
-}
-#tit-form{
-  padding: 4px 0;
-  color: #4285F4;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-#puerto-dia2{
-  float:right;
-}
-#puerto-dia1{
-  float: left;
 }
 /*input,select{
   display: block;

@@ -5,6 +5,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width"/>
       <link href="css/css-principal.css" rel="stylesheet" type="text/css" media="screen"/>
+      <link href="css/css-contacto.css" rel="stylesheet" type="text/css" media="screen"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/png" href="fotos/fotos-global/logo.png" sizes="64x64">
   </head>
@@ -25,48 +26,60 @@
         </div>
       </header>
     </div>
-    <div class="div-form">
-      <form action="#">
-        <h2 id="tit-form">Planea tu viaje con nosotros</h2>
-        <div id="puerto-dia1">
-          <div class="">
-            <label for="" class="label">Puerto de embarque</label><br>
-            <input type="text" class="form-control" placeholder="">
-          </div>
-          <div class="">
-           <label for="" class="label">Día de embarque</label><br>
-           <input type="date" class="" placeholder="">
-          </div>
-          <div class="">
-            <label for="">Tipo de barco deseado</label><br>
-            <select name="" class="">
-              <option value="">Barco a motor < 15 metros</option>
-              <option value="">Barco a motor > 15 metros</option>
-              <option value="">Velero</option>
-              <option value="">Moto acuática</option>
-            </select>
-          </div>
-        </div>
-        <div id="puerto-dia2">
-          <div class="">
-           <label for="" class="label">Puerto de devolución</label><br>
-           <input type="text" placeholder="">
-          </div>
-          <div class="">
-            <label for="" class="label">Día de devolución</label><br>
-            <input type="date" class="" placeholder="">
-          </div>
-          <div class="">
-            <label for="" class="label">Teléfono de contacto</label><br>
-            <input type="text" class="" placeholder="">
-           </div>
-        </div>  
-
-        <div>
-          <input class="button"type="submit" value="Pide presupuesto">
-        </div>
-      </form>
-    </div>
+        <section id="reserva">
+          <h2>Reserva con nosotros con el siguiente formulario</h2>
+          <p>O también puedes llamarnos al +34 986 65 52 32</p>
+          <form action="" method="post">
+            <p>
+               <input type="text" class="nombre" name="Nombre" placeholder="Nombre"/>
+            </p>
+            <p>
+               <input type="email" class="email" name="email" placeholder="Correo electrónico"/>
+            </p>
+            <p>
+              <input type="text" class="tlfn" placeholder="Teléfono de contacto"/>
+            </p>  
+            <p>
+              <select name="barco" class="barco-reserva" placeholder="Modelo de barco deseado">
+                <option value="">-</option>
+                <option value="">Princess V65</option>
+                <option value="">CANTIERE AZURRO 72</option>
+                <option value="">Fountaine Pajot Victoria 67</option>
+                <option value="">Astondoa 102 GLX</option>
+                <option value="">Pershing 45</option>
+              </select>
+            </p>
+            <div class="embarque">
+              <p>
+                <input type="text" name="puerto-embarque"class="puerto-embarque" placeholder="Puerto de embarque"/>
+              </p>
+              <p>    
+                <input type="text" name="dia-embarque"class="dia-embarque" placeholder="Día de embarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
+              </p>
+              <p>
+                <input type="text" name="hora-embarque" placeholder="Hora de embarque"class="hora-embarque" min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>
+              </p>
+            </div>
+            <div class="desembarque">
+              <p>
+                <input type="text" name="puerto-desembarque" class="puerto-desembarque" placeholder="Puerto de desembarque"/>
+              </p>
+              <p>    
+                <input type="text" name="dia-desembarque"placeholder="Día de desembarque" class="dia-desembarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
+              </p>
+              <p>
+                <input type="text" name="hora-desembarque" placeholder="Hora de desembarque"class="hora-desembarque"min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>
+              </p>
+            </div>
+            <p>
+              <textarea class="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+            </p>
+            <p>
+              <input type="checkbox" name="condiciones" required/><label for="condiciones">He leído y acepto la <a href="#">política de privacidad</a></label>
+            </p>
+            <p><input type="submit" class="button"value="Enviar"/></p>
+            </form>
+        </section>
 
     <footer>
       <table id="footer-1000px">
