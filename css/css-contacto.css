@@ -28,12 +28,10 @@
     background-color: #F8F9FA;
 }
 .embarque,.nombre{
-    display: inline-block;
-    float: left;
+    display: inline;
 }
 .desembarque,.email{
-    display: inline-block;
-    float: right;
+    display: inline;
 }
 #reserva textarea{
     height: 8em;
