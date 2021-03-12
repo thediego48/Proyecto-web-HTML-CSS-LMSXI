@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contáctanos</title>
+    <title>Reserva con nosotros | Real Yatch Rental</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width"/>
       <link href="css/css-principal.css" rel="stylesheet" type="text/css" media="screen"/>
@@ -31,12 +31,10 @@
           <h2>Reserva con nosotros con el siguiente formulario</h2>
           <p>O también puedes llamarnos al +34 986 65 52 32</p>
           <form action="" method="post">
-            <p>
-               <input type="text" class="nombre" name="Nombre" placeholder="Nombre"/>
-            </p>
-            <p>
-               <input type="email" class="email" name="email" placeholder="Correo electrónico"/>
-            </p>
+            <div class="form-doble">
+                <input type="text" class="nombre" name="Nombre" placeholder="Nombre"/>
+                <input type="email" class="email" name="email" placeholder="Correo electrónico"/>
+            </div>
             <p>
               <input type="text" class="tlfn" placeholder="Teléfono de contacto"/>
             </p>  
@@ -50,27 +48,13 @@
                 <option value="">Pershing 45</option>
               </select>
             </p>
-            <div class="embarque">
-              <p>
-                <input type="text" name="puerto-embarque"class="puerto-embarque" placeholder="Puerto de embarque"/>
-              </p>
-              <p>    
-                <input type="text" name="dia-embarque"class="dia-embarque" placeholder="Día de embarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
-              </p>
-              <p>
-                <input type="text" name="hora-embarque" placeholder="Hora de embarque"class="hora-embarque" min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>
-              </p>
-            </div>
-            <div class="desembarque">
-              <p>
-                <input type="text" name="puerto-desembarque" class="puerto-desembarque" placeholder="Puerto de desembarque"/>
-              </p>
-              <p>    
-                <input type="text" name="dia-desembarque"placeholder="Día de desembarque" class="dia-desembarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
-              </p>
-              <p>
-                <input type="text" name="hora-desembarque" placeholder="Hora de desembarque"class="hora-desembarque"min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>
-              </p>
+            <div class="form-doble">
+                  <input type="text" name="puerto-embarque"class="puerto-embarque" placeholder="Puerto de embarque"/>  
+                  <input type="text" name="dia-embarque"class="dia-embarque" placeholder="Día de embarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
+                  <input type="text" name="hora-embarque" placeholder="Hora de embarque"class="hora-embarque" min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>
+                  <input type="text" name="puerto-desembarque" class="puerto-desembarque" placeholder="Puerto de desembarque"/> 
+                  <input type="text" name="dia-desembarque"placeholder="Día de desembarque" class="dia-desembarque"onfocus="(this.type='date')" onblur="(this.type='text')"/>
+                  <input type="text" name="hora-desembarque" placeholder="Hora de desembarque"class="hora-desembarque"min="08:00" max="19:00" onfocus="(this.type='date')" onblur="(this.type='text')"required/>  
             </div>
             <p>
               <textarea class="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>

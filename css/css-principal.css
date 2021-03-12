@@ -265,13 +265,11 @@ margin: 80px 0;
 }
 #contenido-banner-contacto{
   max-width: 1000px;
+  height: 130px;
   margin: 0 auto;
-}
-#banner-contacto h2{
-  text-align: center;
-  line-height: 130px;
-  display: inline;
-  margin-right: 520px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
 }
 #opiniones{
   margin: 20px auto;

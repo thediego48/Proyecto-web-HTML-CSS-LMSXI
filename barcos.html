@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nuestros barcos</title>
+    <title>Nuestros barcos | Real Yatch Rental</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width"/>
       <link href="css/css-principal.css" rel="stylesheet" type="text/css" media="screen"/>
@@ -30,7 +30,7 @@
     <div id="banner-contacto">
       <div id="contenido-banner-contacto">
         <h2>¿Interesado en alquilar?</h2>
-        <a class="button" href="contacto.html">¡Contáctanos!</a>
+        <a class="button" href="contacto.html">¡Haz tu reserva!</a>
       </div>
     </div>
     <h2 style="color:black;text-align:center;">Tenemos las mejores embarcaciones de Galicia a tu disposición.</h2>
@@ -78,6 +78,10 @@
         <td class="precio"><h3>9 200€</h3> <a class="button-precio"  href="contacto.html">Reservar</a></td>
       </tr>
     </table>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
     <footer>
       <table id="footer-1000px">
         <tr>
@@ -138,6 +142,21 @@
         },700); //el valor 700 indica que lo ara en 700 mili segundos
         return false; //rompe el bucle
       });
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+    } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
       </script>
     </body>
     </html>
