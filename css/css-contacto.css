@@ -30,17 +30,30 @@
     height: 41px;
     background-color: #F8F9FA;
   }
-.puerto-embarque,.dia-embarque,.hora-embarque,.puerto-desembarque,.dia-desembarque,.hora-desembarque,.nombre,.email{
+.nombre,.email{
     width: 48%;
     border: 2px solid #0f75bc;
     height: 41px;
     background-color: #F8F9FA;
 }
+.puerto-embarque,.dia-embarque,.hora-embarque,.puerto-desembarque,.dia-desembarque,.hora-desembarque{
+  width: 100%;
+  border: 2px solid #0f75bc;
+  margin-bottom: 15px;
+  height: 41px;
+  background-color: #F8F9FA;
+}
+.embarque{
+  width: 48%;
+}
+.desembarque{
+  width: 48%;
+}
 #reserva textarea{
     height: 8em;
     font-family: Arial;
   }
-#reserva ::placeholder{
+#reserva ::placeholder, option{
     color: grey;
     font-size: 1.2em;
     padding-left: 5px;
@@ -49,7 +62,25 @@
     display: flex; 
     justify-content: space-between;
   }
-  .puerto-embarque .dia-embarque .hora-embarque{
-    display: flex; 
-    justify-content: space-between;
+  .oficina{
+    background-color: #0F75BC;
   }
+  .oficina2{
+    margin: 50px auto 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .oficina h2{
+    color:white;
+    text-align:center;
+    font-size: 45px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .primer-h3{
+    margin-top: 0;
+  }
+  
