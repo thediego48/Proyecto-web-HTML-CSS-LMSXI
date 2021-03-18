@@ -178,6 +178,13 @@
         </tr>  
       </table>
     </footer>
+    <div id="div-cookies" style="display: none;">
+      Esta web inserta cookies propias para facilitar tu navegación y de terceros derivadas de su uso en nuestra web, de medios sociales, así como para mejorar la usabilidad y temática de la misma con Google Analytics. Los datos personales no son consultados. Si continúas navegando consideramos que aceptas su uso. Puedes obtener más información
+      <a hreflang="es" href="aviso-legal.html">aquí</a>
+      <br><button type="button" class="button" onclick="acceptCookies()">
+          Acepto el uso de cookies
+      </button>
+    </div>
     // Enlace de boton subir https://luismasdev.com/boton-subir/
     <a href="#" id="js_up" class="boton-subir">Subir</a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -213,7 +220,21 @@
         panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
-}
+      }
+      //script css cookies
+      function checkAcceptCookies() {
+        if (localStorage.acceptCookies == 'true') {
+        } else {
+            $('#div-cookies').show();
+        }
+      }
+      function acceptCookies() {
+        localStorage.acceptCookies = 'true';
+        $('#div-cookies').hide();
+      }
+      $(document).ready(function() {
+        checkAcceptCookies();
+      });  
       </script>
     </body>
     </html>

@@ -10,3 +10,9 @@ https://es.stackoverflow.com/questions/15594/crear-elementos-desplegable-para-pa
 https://luismasdev.com/boton-subir/
 
 https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element
+
+
+
+
+
+https://jnjsite.com/nueva-version-del-sencillo-mensaje-de-aceptar-cookies-para-tu-web/
