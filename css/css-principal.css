@@ -425,10 +425,14 @@ margin-bottom: 30px;
 #div-cookies {
   position: fixed;
   bottom: 0px;
-  left: 0px;
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   background-color: grey;
   padding: 20px;
+  padding-right: 500px;
   text-align: center;
   z-index: 99;
+}
+#div-cookies .button{
+  margin-top: 20px;
 }
