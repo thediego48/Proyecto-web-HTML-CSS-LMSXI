@@ -101,7 +101,7 @@
       <form>
         <p>
           <input id="telefono"type="tel" name="telefono" placeholder="Teléfono" required/>
-          <input type="button" class="button"value="Enviar"/>
+          <input type="button" class="button"value="Enviar" onClick="alert('Mensaje enviado, te llamaremos lo antes posible')"/>
         </p>
       </form>
     </section>
@@ -121,7 +121,7 @@
         <p>
           <input type="checkbox" name="condiciones" required/><label for="condiciones">He leído y acepto la <a href="privacidad.html">política de privacidad</a></label>
         </p>
-        <p><input type="submit" class="button"value="Enviar"/></p>
+        <p><input type="button" class="button"value="Enviar" onClick="alert('Mensaje enviado, te contactaremos lo antes posible')"/></p>
         </form>
     </section>
     <footer>
@@ -188,7 +188,7 @@
         e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
         $("body,html").animate({ // aplicamos la función animate a los tags body y html
           scrollTop: 0 //al colocar el valor 0 a scrollTop me volverá a la parte inicial de la página
-        },700); //el valor 700 indica que lo ara en 700 mili segundos
+        },700); //el valor 700 indica que lo hará en 700 mili segundos
         return false; //rompe el bucle
       });
 
