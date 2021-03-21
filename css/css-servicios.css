@@ -1,4 +1,4 @@
-#carrousel-servicios{
+.carrousel-servicios{
     background-image: url(../fotos/fotos-servicios/velero.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -19,14 +19,14 @@
     line-height: 30px;
     text-align: justify;
 }
-#texto-evento-hijo h2{
+.texto-evento-hijo h2{
     text-align: center;
     color: white;
 }
-#texto-evento-hijo p{
+.texto-evento-hijo p{
     color: white;
 }
-#tabla-eventos{
+.tabla-eventos{
     background-color: #0f75bc;
     padding-top: 5px;
     padding-bottom: 5px;

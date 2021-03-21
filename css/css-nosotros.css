@@ -1,4 +1,4 @@
-#carrousel-nosotros{
+.carrousel-nosotros{
     background-image: url(../fotos/fotos-nosotros/crew-compr.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -7,19 +7,19 @@
     height: 800px;
     margin: 0;
   }
-  #quienes-somos{
+  .quienes-somos{
     color: black;
     max-width: 1000px;
     margin: 20px auto;
   }
-  #quienes-somos h2{
+  .quienes-somos h2{
       text-align: center;
   }
-  #img-nosotros{
+  .img-nosotros{
     max-width: 50%;
     float: left;
   }
-  #texto-nosotros-padre{
+  .texto-nosotros-padre{
     max-width: 50%;  
     display: inline-block;
     height: 320px;
@@ -27,20 +27,20 @@
     align-items: center;
 
   }
-  #texto-nosotros-hijo{
+  .texto-nosotros-hijo{
     padding: 60px;
     line-height: 30px;
     text-align: justify;
   }
-  #nuestro-equipo{
+  .nuestro-equipo{
     background-color: #0f75bc;
     padding: 30px;
   }
-  #nuestro-equipo2{
+  .nuestro-equipo2{
     margin: 0 auto;
     max-width: 1000px;
   }
-  #nuestro-equipo2 h2{
+  .nuestro-equipo2 h2{
       margin-top: 0;
       margin-bottom: 30px;
   }

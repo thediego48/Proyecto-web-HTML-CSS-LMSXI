@@ -1,4 +1,4 @@
-#carrousel-contacto{
+.carrousel-contacto{
   background-image: url(../fotos/fotos-contacto/ralph-ravi-kayden--T8tYN-3cMg-unsplash.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -7,11 +7,11 @@
   height: 800px;
   margin: 0;
 }
-#reserva{
+.reserva{
   margin: 20px auto;
   max-width: 1000px;
   }
-#reserva h2{
+.reserva h2{
   color:black;
   text-align:center;
   font-size: 45px;
@@ -19,12 +19,12 @@
   margin-bottom: 10px;
   margin-top: 0;
   }
-#reserva p{
+.reserva p{
   margin-bottom: 30px;
   color: black;
   text-align: center;
   }
-#reserva textarea,.tlfn,.barco-reserva {
+.reserva textarea,.tlfn,.barco-reserva {
   width: 100%;
   border: 2px solid #0f75bc;
   height: 41px;
@@ -49,11 +49,11 @@
 .desembarque{
   width: 48%;
 }
-#reserva textarea{
+.reserva textarea{
   height: 8em;
   font-family: Arial;
   }
-#reserva ::placeholder, option{
+.reserva ::placeholder, option{
   color: grey;
   font-size: 1.2em;
   padding-left: 5px;
@@ -83,7 +83,7 @@
 .primer-h3{
   margin-top: 0;
   }
-  #localizacion h3{
+  .localizacion h3{
     position: relative;
     left: -34px;
   }

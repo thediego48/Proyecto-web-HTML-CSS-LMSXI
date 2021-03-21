@@ -1,4 +1,4 @@
-#carrousel-barcos{
+.carrousel-barcos{
   background-image: url(../fotos/fotos-barcos/portada.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   }
-#iva{
+.iva{
   color:black;
   text-align: right;
   font-size: 10px;

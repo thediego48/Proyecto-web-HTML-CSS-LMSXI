@@ -9,25 +9,25 @@ body{
   text-decoration: none;
   color: #fff;
 }
-#menu{
+.menu{
   padding: 0px;
   position: absolute;
   top: 25px;
   right: 10px;
 }
 
-#menu li{
+.menu li{
   display: inline;
 }
 
-#menu li a {
+.menu li a {
  font-family: Arial;
  font-size: 22px;
  text-decoration: none;
  color: black;
  padding: 20px;
  }
-#rrss a{
+.rrss a{
   color: black;
   position: absolute;
   top: 2px;
@@ -35,7 +35,7 @@ body{
   width: 90px;
   height: 40px;
 }
-#carrousel{
+.carrousel{
   background-image: url(../fotos/fotos-index/yate2-compr.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body{
   height: 800px;
   margin: 0;
 }
-#logo{
+.logo{
   position: absolute;
   top: 5px;
   left: 10px;
@@ -89,7 +89,7 @@ label{
   letter-spacing: .2em;
   margin: 20px 20px 5px 20px;
 }*/
-#Vigo{
+.Vigo{
   background-image: url(../fotos/fotos-index/ria-vigo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -98,10 +98,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Vigo h1{
+.Vigo h1{
   visibility: hidden;
 }
-#Vigo:hover{
+.Vigo:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -109,10 +109,10 @@ label{
   ),
   url(../fotos/fotos-index/ria-vigo.jpg);
 }
-#Vigo:hover h1{
+.Vigo:hover h1{
   visibility: visible;
 }
-#Coruna{
+.Coruna{
   background-image: url(../fotos/fotos-index/coruna.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -121,10 +121,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Coruna h1{
+.Coruna h1{
   visibility: hidden;
 }
-#Coruna:hover{
+.Coruna:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -132,10 +132,10 @@ label{
   ),
   url(../fotos/fotos-index/coruna.jpg);
 }
-#Coruna:hover h1{
+.Coruna:hover h1{
   visibility: visible;
 }
-#Baiona{
+.Baiona{
   background-image: url(../fotos/fotos-index/baiona.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -144,10 +144,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Baiona h1{
+.Baiona h1{
   visibility: hidden;
 }
-#Baiona:hover{
+.Baiona:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -155,10 +155,10 @@ label{
   ),
   url(../fotos/fotos-index/baiona.jpg);
 }
-#Baiona:hover h1{
+.Baiona:hover h1{
   visibility: visible;
 }
-#Sanxenxo{
+.Sanxenxo{
   background-image: url(../fotos/fotos-index/sanxenxo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -167,10 +167,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Sanxenxo h1{
+.Sanxenxo h1{
   visibility: hidden;
 }
-#Sanxenxo:hover{
+.Sanxenxo:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -178,10 +178,10 @@ label{
   ),
   url(../fotos/fotos-index/sanxenxo.jpg);
 }
-#Sanxenxo:hover h1{
+.Sanxenxo:hover h1{
   visibility: visible;
 }
-#Ribadeo{
+.Ribadeo{
   background-image: url(../fotos/fotos-index/ribadeo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -190,10 +190,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Ribadeo h1{
+.Ribadeo h1{
   visibility: hidden;
 }
-#Ribadeo:hover{
+.Ribadeo:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -201,10 +201,10 @@ label{
   ),
   url(../fotos/fotos-index/ribadeo.jpg);
 }
-#Ribadeo:hover h1{
+.Ribadeo:hover h1{
   visibility: visible;
 }
-#Cambados{
+.Cambados{
   background-image: url(../fotos/fotos-index/cambados.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -213,10 +213,10 @@ label{
   display: inline-block;
   margin:4px;
 }
-#Cambados h1{
+.Cambados h1{
   visibility: hidden;
 }
-#Cambados:hover{
+.Cambados:hover{
   background-image: 
   linear-gradient(
     rgba(41, 48, 43, 0.6),
@@ -224,18 +224,18 @@ label{
   ),
   url(../fotos/fotos-index/cambados.jpg);
 }
-#Cambados:hover h1{
+.Cambados:hover h1{
   visibility: visible;
 }
-#localizaciones{
+.localizaciones{
   margin: 20px auto;
   max-width: 1000px
 }
-#texto-vigo,#texto-coruna,#texto-baiona,#texto-sanxenxo,#texto-ribadeo,#texto-cambados{
+.texto-vigo,.texto-coruna,.texto-baiona,.texto-sanxenxo,.texto-ribadeo,.texto-cambados{
 text-align:center;
 margin: 80px 0;
 }
-#stats{
+.stats{
   text-align: center;
   background-image: 
   linear-gradient(
@@ -246,26 +246,26 @@ margin: 80px 0;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-#col1,#col2,#col3,#col4{
+.col1,.col2,.col3,.col4{
   display: inline-block;
   text-align: center;
   margin: 60px;
 }
-#h1-col1,#h1-col2,#h1-col3,#h1-col4{
+.h1-col1,.h1-col2,.h1-col3,.h1-col4{
   font-size: 50px;
 }
 .activa{
   text-decoration: underline;
   text-decoration-style: double;
 }
-#centrar-stats{
+.centrar-stats{
   margin: 0 auto;
 }
-#banner-contacto{
+.banner-contacto{
    background-color: #0f75bc;
    height: 130px;
 }
-#contenido-banner-contacto{
+.contenido-banner-contacto{
   max-width: 1000px;
   height: 130px;
   margin: 0 auto;
@@ -273,7 +273,7 @@ margin: 80px 0;
   justify-content: space-between;
   align-items: center;
 }
-#opiniones{
+.opiniones{
   margin: 20px auto;
   max-width: 1000px
 }
@@ -300,7 +300,7 @@ margin: 80px 0;
   text-align: center;
   color: #0f75bc;
 }
-#llamamos{
+.llamamos{
   text-align: center;
   background-image: 
   linear-gradient(
@@ -312,32 +312,32 @@ margin: 80px 0;
   background-size: 100%;
   height: 300px;
 }
-#llamamos h2{
+.llamamos h2{
   color:white;
   text-align:center;
   font-size: 45px;
   padding-top: 40px;
   margin-bottom: 10px;
 }
-#llamamos p{
+.llamamos p{
   margin-bottom: 30px;
 }
-#telefono{
+.telefono{
   border-radius: 6px;
   border: 2px solid white;
   height: 41px;
   width: 220px;
 }
-#llamamos ::placeholder{
+.llamamos ::placeholder{
   color: grey;
   font-size: 1.5em;
   text-align: center;
 }
-#contacto-index{
+.contacto-index{
   margin: 20px auto;
   max-width: 1000px;
 }
-#contacto-index h2{
+.contacto-index h2{
   color:black;
   text-align:center;
   font-size: 45px;
@@ -345,22 +345,22 @@ margin: 80px 0;
   margin-bottom: 10px;
   margin-top: 0;
 }
-#contacto-index p{
+.contacto-index p{
   margin-bottom: 30px;
   color: black;
   text-align: center;
 }
-#contacto-index #nombre,#contacto-index #email,#contacto-index textarea{
+.contacto-index .nombre,.contacto-index .email,.contacto-index textarea{
   width: 100%;
   border: 2px solid #0f75bc;
   height: 41px;
   background-color: #F8F9FA;
 }
-#contacto-index textarea{
+.contacto-index textarea{
   height: 8em;
   font-family: Arial;
 }
-#contacto-index ::placeholder{
+.contacto-index ::placeholder{
   color: grey;
   font-size: 1.2em;
   padding-left: 5px;
@@ -369,21 +369,21 @@ footer{
   background-color: #262424;
   margin-bottom: 0;
 }
-#footer-1000px{
+.footer-1000px{
   margin: 0 auto;
   max-width: 1250px;
   padding-top: 50px;
 }
-#columna1,#columna2,#columna3,#columna4{
+.columna1,.columna2,.columna3,.columna4{
   width: 25%;
   margin-top: 20px;
   text-align: center;
   vertical-align: top;
 }
-#columna2,#columna3,#columna4{
+.columna2,.columna3,.columna4{
   margin-left: 2px;
 }
-#columna2 li a,#columna3 li a {
+.columna2 li a,.columna3 li a {
   text-decoration: none;
   list-style:none
 }
@@ -393,13 +393,13 @@ footer{
   padding-left: 0;
   line-height: 63px;
 }
-#ubicacion{
+.ubicacion{
   line-height: normal;
 }
 .lista-enlaces a{
   color: white;
 }
-#columna1 img{
+.columna1 img{
 margin-bottom: 30px;
 }
 .boton-subir{
@@ -422,7 +422,7 @@ margin-bottom: 30px;
   background-color: #ffffff;
   border: 2px solid #25aae1;
 }
-#div-cookies {
+.div-cookies {
   position: fixed;
   bottom: 0px;
   width: 95%;
@@ -433,7 +433,7 @@ margin-bottom: 30px;
   text-align: center;
   z-index: 99;
 }
-#div-cookies .button{
+.div-cookies .button{
   margin-top: 20px;
 }
 .tlfn-oculto{
