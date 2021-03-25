@@ -5,7 +5,7 @@
 body{
   margin: 0;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 1.125em;
   text-decoration: none;
   color: #fff;
 }
@@ -22,7 +22,7 @@ body{
 
 .menu li a {
  font-family: Arial;
- font-size: 22px;
+ font-size: 1.275em;
  text-decoration: none;
  color: black;
  padding: 20px;
@@ -53,7 +53,7 @@ body{
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.250em;
   color: #ffffff;
   background-color: #25aae1;
   border-radius: 6px;
@@ -95,7 +95,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Vigo h1{
@@ -118,7 +117,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Coruna h1{
@@ -141,7 +139,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Baiona h1{
@@ -164,7 +161,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Sanxenxo h1{
@@ -187,7 +183,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Ribadeo h1{
@@ -210,7 +205,6 @@ label{
   background-size: 100%;
   height: 200px;
   width: 320px;
-  display: inline-block;
   margin:4px;
 }
 .Cambados h1{
@@ -229,7 +223,10 @@ label{
 }
 .localizaciones{
   margin: 20px auto;
-  max-width: 1000px
+  max-width: 1000px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .texto-vigo,.texto-coruna,.texto-baiona,.texto-sanxenxo,.texto-ribadeo,.texto-cambados{
 text-align:center;
@@ -244,7 +241,10 @@ margin: 80px 0;
   ),
   url(../fotos/fotos-index/foto-stats.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .col1,.col2,.col3,.col4{
   display: inline-block;
@@ -252,11 +252,13 @@ margin: 80px 0;
   margin: 60px;
 }
 .h1-col1,.h1-col2,.h1-col3,.h1-col4{
-  font-size: 50px;
+  font-size: 3em;
 }
-.activa{
-  border-bottom: 3px solid black;
-  border-radius: 20%;
+.menu li a:hover{
+  color: #0f75bc;
+}
+.activa a{
+  color: white;
 }
 .centrar-stats{
   margin: 0 auto;
@@ -309,13 +311,13 @@ margin: 80px 0;
   ),
   url(../fotos/fotos-index/te-llamamos.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 300px;
 }
 .llamamos h2{
   color:white;
   text-align:center;
-  font-size: 45px;
+  font-size: 2.75em;
   padding-top: 40px;
   margin-bottom: 10px;
 }
@@ -373,20 +375,11 @@ footer{
   margin: 0 auto;
   max-width: 1250px;
   padding-top: 50px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.columna1,.columna2,.columna3,.columna4{
-  width: 25%;
-  margin-top: 20px;
-  text-align: center;
-  vertical-align: top;
-}
-.columna2,.columna3,.columna4{
-  margin-left: 2px;
-}
-.columna2 li a,.columna3 li a {
-  text-decoration: none;
-  list-style:none
-}
+
 .lista-enlaces{
   text-decoration: none;
   list-style:none;
@@ -399,8 +392,10 @@ footer{
 .lista-enlaces a{
   color: white;
 }
-.columna1 img{
-margin-bottom: 30px;
+.logo-mapa a,iframe{
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .boton-subir{
   display: none;

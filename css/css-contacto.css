@@ -70,6 +70,7 @@
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-bottom: 50px;
   }
 .oficina h2{
@@ -83,7 +84,7 @@
 .primer-h3{
   margin-top: 0;
   }
-  .localizacion h3{
+.localizacion h3{
     position: relative;
     left: -34px;
   }
