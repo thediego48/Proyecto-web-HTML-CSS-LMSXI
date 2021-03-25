@@ -255,8 +255,8 @@ margin: 80px 0;
   font-size: 50px;
 }
 .activa{
-  text-decoration: underline;
-  text-decoration-style: double;
+  border-bottom: 3px solid black;
+  border-radius: 20%;
 }
 .centrar-stats{
   margin: 0 auto;
