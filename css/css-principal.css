@@ -240,12 +240,8 @@ margin: 80px 0;
   url(../fotos/fotos-index/foto-stats.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .col1,.col2,.col3,.col4{
-  display: inline-block;
   text-align: center;
   margin: 60px;
 }
@@ -260,6 +256,9 @@ margin: 80px 0;
 }
 .centrar-stats{
   margin: 0 auto;
+  max-width: 1000px;
+  display:flex;
+  justify-content: space-between;
 }
 .banner-contacto{
    background-color: #0f75bc;
@@ -377,7 +376,6 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .lista-enlaces{
   text-decoration: none;
   list-style:none;
