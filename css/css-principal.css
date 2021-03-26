@@ -15,11 +15,9 @@ body{
   top: 25px;
   right: 10px;
 }
-
 .menu li{
   display: inline;
 }
-
 .menu li a {
  font-family: Arial;
  font-size: 1.275em;
@@ -257,7 +255,7 @@ margin: 80px 0;
 .menu li a:hover{
   color: #0f75bc;
 }
-.activa a{
+.menu .activa a{
   color: white;
 }
 .centrar-stats{
