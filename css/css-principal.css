@@ -391,6 +391,7 @@ footer{
 }
 .lista-enlaces a{
   color: white;
+  text-decoration: none;
 }
 .logo-mapa a,iframe{
   display: block;
