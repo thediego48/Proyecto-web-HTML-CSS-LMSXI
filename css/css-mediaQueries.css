@@ -1,6 +1,5 @@
 @media (max-width:1250px){
     .footer-1000px{
-        margin: 0 300px;
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
@@ -11,6 +10,9 @@
         align-items: center;
     }
     .contacto-index{
+        max-width: 95%;
+    }
+    .reserva{
         max-width: 95%;
     }
 }
@@ -56,10 +58,44 @@
         flex-direction: column;
         align-items: center;
     }
+    .tabla-servicios-inv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .precios-barcos{
+        width: 95%;
+    }
+    .desplegable, .panel{
+        max-width: 95%;
+    }
+    .panel{
+        padding: 0;
+    }
+    .oficina2{
+        max-width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .texto-info{
+        width: 85%;
+    }
     
 }
 @media (max-width:650px){
     .imagen-texto p{
         max-width: 90%;
+    }
+    .form-doble{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nombre,.email,.embarque,.desembarque{
+        width: 100%;
+    }
+    .texto-info{
+        width: 90%;
     }
 }

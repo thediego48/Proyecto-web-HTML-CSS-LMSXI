@@ -1,12 +1,3 @@
-.carrousel-contacto{
-  background-image: url(../fotos/fotos-contacto/ralph-ravi-kayden--T8tYN-3cMg-unsplash.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
-  height: 800px;
-  margin: 0;
-}
 .reserva{
   margin: 20px auto;
   max-width: 1000px;
@@ -35,6 +26,10 @@
   border: 2px solid #0f75bc;
   height: 41px;
   background-color: #F8F9FA;
+  margin-bottom: 15px;
+}
+.tlfn,.barco-reserva{
+  margin-bottom: 15px;
 }
 .puerto-embarque,.dia-embarque,.hora-embarque,.puerto-desembarque,.dia-desembarque,.hora-desembarque{
   width: 100%;
