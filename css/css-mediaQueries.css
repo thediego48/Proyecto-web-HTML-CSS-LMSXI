@@ -7,11 +7,11 @@
     }
     .opiniones{
         display: flex;
-        max-width: 100%;
+        max-width: 100vw;
         align-items: center;
     }
     .contacto-index{
-        max-width: 95%%;
+        max-width: 95%;
     }
 }
 @media (max-width:1000px){
@@ -43,5 +43,23 @@
         align-items: center;
         text-align: center;
     }
+    .imagen-texto{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .imagen-texto p{
+        max-width: 50%;
+        height: 100%;
+    }
+    .tabla-servicios{
+        flex-direction: column;
+        align-items: center;
+    }
     
+}
+@media (max-width:650px){
+    .imagen-texto p{
+        max-width: 90%;
+    }
 }
