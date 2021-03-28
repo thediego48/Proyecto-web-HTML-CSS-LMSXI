@@ -84,6 +84,22 @@
     }
     
 }
+@media (max-width:871px){
+    .menu{
+        /*display: none;*/
+        visibility: hidden;
+    }
+    .barras-movil{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        cursor: pointer;
+    }
+    /*.barras-movil input{
+        display: none;
+    }*/
+}
 @media (max-width:650px){
     .imagen-texto p{
         max-width: 90%;
@@ -97,5 +113,9 @@
     }
     .texto-info{
         width: 90%;
+    }
+    .telefono{
+        width: 120px;
+        height: 44;
     }
 }
