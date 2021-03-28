@@ -94,11 +94,10 @@
         position: absolute;
         top: 30px;
         right: 40px;
-        cursor: pointer;
     }
-    /*.barras-movil input{
+    .barras-movil input{
         display: none;
-    }*/
+    }
 }
 @media (max-width:650px){
     .imagen-texto p{
