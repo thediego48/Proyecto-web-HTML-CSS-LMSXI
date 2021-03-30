@@ -82,6 +82,15 @@
     .texto-info{
         width: 85%;
     }
+    .anuncios{
+        max-width: 95%;
+    }
+    .galeria{
+        display: none;
+    }
+    .specs h3{
+        font-size: 0.95em;
+    }
     
 }
 @media (max-width:871px){
@@ -97,6 +106,9 @@
     }
     .barras-movil input{
         display: none;
+    }
+    .precios-barcos{
+        max-width: 90%;
     }
 }
 @media (max-width:650px){
@@ -123,5 +135,11 @@
     .logo{
         width: 100px;
         height: 66px;
+    }
+    .imagen img{
+        height: 60%;
+    }
+    .imagen a{
+        height: 50%;
     }
 }
