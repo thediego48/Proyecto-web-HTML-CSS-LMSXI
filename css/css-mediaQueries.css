@@ -85,7 +85,7 @@
     
 }
 @media (max-width:871px){
-    .menu{
+    .menu,.menu-info{
         /*display: none;*/
         visibility: hidden;
     }
@@ -119,5 +119,9 @@
     }
     .mapa-contacto{
         width: 90%;
+    }
+    .logo{
+        width: 100px;
+        height: 66px;
     }
 }
