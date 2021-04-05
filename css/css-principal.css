@@ -45,6 +45,7 @@ header{
   position: absolute;
   top: 5px;
   left: 10px;
+  z-index: 5;
 }
 .button{
   text-decoration: none;
@@ -253,6 +254,9 @@ margin: 80px 0;
 .menu .activa a{
   color: white;
 }
+.menu .activa-m a{
+  color: #25AAE1;
+}
 .centrar-stats{
   margin: 0 auto;
   max-width: 1000px;
@@ -409,7 +413,7 @@ footer h2{
   position: fixed;
   right: 20px;
   bottom:20px;
-  z-index: 999999999;
+  z-index: 98;
 }
 .boton-subir:hover{
   color: #1883ba;
@@ -434,13 +438,17 @@ footer h2{
   margin: 0;
 }
 #menu-movil:checked ~ .menu{
-  transition:transform 0.5s;
-  max-width: 95%;
-  visibility: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(51,51,51,0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-around;
 }
 .barras-movil{
   display: none;

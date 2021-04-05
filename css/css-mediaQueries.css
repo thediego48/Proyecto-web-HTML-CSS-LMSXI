@@ -6,7 +6,7 @@
     }
     .opiniones{
         display: flex;
-        max-width: 100vw;
+        max-width: 95%;
         align-items: center;
     }
     .contacto-index{
@@ -95,8 +95,24 @@
 }
 @media (max-width:871px){
     .menu,.menu-info{
-        /*display: none;*/
-        visibility: hidden;
+        display: none;
+        margin: 0;
+    }
+    .menu li a{
+        font-size: xx-large;
+        color: white;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        width: 100%;
+    }
+    .menu .redes a{
+        border: none;
+    }
+    .menu label{
+        font-size: xx-large;
+        padding: 2vh;
+        color: red;
+        border: 2px solid red;
+        font-weight: bold;
     }
     .barras-movil{
         display: block;
